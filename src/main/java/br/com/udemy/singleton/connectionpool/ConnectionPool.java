@@ -19,7 +19,7 @@ public class ConnectionPool {
 		connections = new ArrayList<Connection>();
 		for (int i = 0; i < POOL_SIZE; i++) {
 			conn = new Connection();
-			conn.setNumConnnection(i + 1);
+			conn.setConnectionCount(i + 1);
 			connections.add(conn);
 		}
 	}

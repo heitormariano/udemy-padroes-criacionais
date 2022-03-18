@@ -3,7 +3,7 @@ package br.com.udemy.singleton.connectionpool;
 public class Connection {
 
 	private boolean inUse;
-	private int numConnnection;
+	private int connectionCount;
 
 	public Connection() {
 		this.inUse = false;
@@ -22,17 +22,17 @@ public class Connection {
 		this.inUse = inUse;
 	}
 
-	public int getNumConnnection() {
-		return numConnnection;
+	public int getConnectionCount() {
+		return connectionCount;
 	}
 
-	public void setNumConnnection(int numConnnection) {
-		this.numConnnection = numConnnection;
+	public void setConnectionCount(int connectionCount) {
+		this.connectionCount = connectionCount;
 	}
 
 	@Override
 	public String toString() {
-		return "Connection [inUse=" + inUse + ", numConnnection=" + numConnnection + "]";
+		return "Connection [inUse=" + inUse + ", numConnnection=" + connectionCount + "]";
 	}
 
 }
