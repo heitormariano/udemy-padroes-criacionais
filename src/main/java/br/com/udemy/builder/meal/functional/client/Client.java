@@ -10,8 +10,8 @@ public class Client {
 
 		System.out.println(cheeseBurgerCombo);
 
-		FastFoodMeal justFries = new FastFoodMeal.Builder("Large Fries").thatsAll();
-		System.out.println(justFries);
+		FastFoodMeal justFriesCombo = new FastFoodMeal.Builder("Large Fries").thatsAll();
+		System.out.println(justFriesCombo);
 
 		FastFoodMeal fatCombo = new FastFoodMeal.Builder("TripleCheddarBaconBurguer").forDrink("MilkShake")
 				.andSide("Onion Rings").andDessert("special petit gateau").andGift("2 Kilograms").thatsAll();

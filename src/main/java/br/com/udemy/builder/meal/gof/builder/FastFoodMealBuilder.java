@@ -25,7 +25,7 @@ public abstract class FastFoodMealBuilder {
 	public abstract void buildGift();
 
 	// abordagem alternativa
-	// A keyword abstract poderia ser retira e evitar a obrigaoriedade
+	// A keyword abstract poderia ser retira e evitar a obrigatoriedade
 	// de implementacao de todos os metodos
 
 //	public void buildDrink() {

@@ -2,6 +2,7 @@ package br.com.udemy.builder.meal.functional.model;
 
 public class FastFoodMeal {
 
+	// atributos finais (não podem ser modificados)
 	private final String drink;
 	private final String main;
 	private final String side;
@@ -16,6 +17,7 @@ public class FastFoodMeal {
 		this.gift = gift;
 	}
 
+	// classe apresenta apenas os getters
 	public String getDrink() {
 		return drink;
 	}
