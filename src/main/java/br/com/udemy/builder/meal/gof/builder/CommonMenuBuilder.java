@@ -1,30 +1,30 @@
 package br.com.udemy.builder.meal.gof.builder;
 
-public class MenuTwoBuilder extends FastFoodMealBuilder {
+public class CommonMenuBuilder extends FastFoodMealBuilder {
 
 	@Override
 	public void buildDrink() {
-		this.meal.setDrink("Water");
+		this.meal.setDrink("Coke");
 	}
 
 	@Override
 	public void buildMain() {
-		this.meal.setMain("VeggieBurguer");
+		this.meal.setMain("Cheeseburguer");
 	}
 
 	@Override
 	public void buildSide() {
-		this.meal.setSide("Salad");
+		this.meal.setSide("Fries");
 	}
 
 	@Override
 	public void buildDessert() {
-		this.meal.setDessert("Apple");
+		this.meal.setDessert("Apple Pie");
 	}
 
 	@Override
 	public void buildGift() {
-		this.meal.setGift("I'm Veggie's Stamp");
+		this.meal.setGift("Avenger's Toy");
 	}
 
 }

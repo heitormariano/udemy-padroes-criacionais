@@ -24,23 +24,24 @@ public abstract class FastFoodMealBuilder {
 
 	public abstract void buildGift();
 
-	// abordagem alternativa
-	// A keyword abstract poderia ser retira e evitar a obrigatoriedade
-	// de implementacao de todos os metodos
+	// Abordagem Alternativa (envolvendo os métodos da classe)
+	/* A keyword abstract poderia ser retirada. Dessa forma, evita-se a obrigatoriedade
+	 * de implementação de todos os métodos */
 
-//	public void buildDrink() {
-//	}
-//
-//	public void buildMain() {
-//	}
-//
-//	public void buildSide() {
-//	}
-//
-//	public void buildDessert() {
-//	}
-//
-//	public void buildGift() {
-//	}
+	/*
+	public void buildDrink() {
+	}
 
+	public void buildMain() {
+	}
+
+	public void buildSide() {
+	}
+
+	public void buildDessert() {
+	}
+
+	public void buildGift() {
+	}
+	*/
 }
