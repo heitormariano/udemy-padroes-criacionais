@@ -3,3 +3,12 @@
 ## Resumo
 
 Projeto que apresenta exemplos de código dos padrões de projeto criacionais. Os exemplo foram baseados nas aulas do curso **Padrões de Projeto em Java na Prática** (plataforma Udemy)
+
+
+## Padrões Estudados
+
+- Factory Method
+- Abstract Factory
+- Singleton
+- Builder
+- Prototype
